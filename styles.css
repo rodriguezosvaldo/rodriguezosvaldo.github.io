@@ -3,20 +3,23 @@ html {
     margin: 0;
     display: flex;
     flex-direction: column;
+    
 }
 body {
     box-sizing: border-box;
     position: relative;
-    width: 100%;
+    width: 50%;
     height: 100%;
-    margin: 0;
+    margin: auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(106, 138, 105);
     background-color: rgb(9, 17, 10);
 }
-.header {
+header {
     box-sizing: border-box;
     position: relative;
     width: 100%;
@@ -24,8 +27,24 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+nav ul {
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-size: 120%;
+    padding: 0;
+    margin: 0;
     
 }
+
 .video{
     box-sizing: border-box;
     position: absolute;
@@ -80,32 +99,18 @@ img {
 main {
     box-sizing: border-box;
     position: relative;
-    width: 100vw;
+    width: auto;
     height: 70%;
     display: flex;
     flex-direction: column;
     flex: 1;
 }
-section {
-    box-sizing: border-box;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin: 5% auto 5% 5%;
-}
-ul {
-    box-sizing: border-box;
-    margin: auto auto auto 1%;
-}
-ol {
-    box-sizing: border-box;
-    margin: auto auto auto 1%;
-}
+
 footer {
     box-sizing: border-box;
     position: relative;
     margin: 0;
-    width: 100vw;
+    width: auto;
     height: 10%;
     display: flex;
     align-items: center;
